@@ -219,7 +219,7 @@ function Base({ children }) {
                   </li>
                   <li>
                     <Typography>
-                      <label onClick={() => history.push("/table")}>
+                      <label onClick={() => history.push("/user")}>
                         <BackupTableIcon />
                         Tables
                       </label>

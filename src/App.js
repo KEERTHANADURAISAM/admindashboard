@@ -13,7 +13,7 @@ import Animation from "./components/Animation";
 import Others from "./components/Others";
 import Register from "./components/Register";
 import Charts from "./components/Charts";
-import Table from "./components/Table";
+import User from "./components/User";
 
 function App() {
   return (
@@ -49,8 +49,8 @@ function App() {
         <Route path="/charts">
           <Charts />
         </Route>
-        <Route path="/table">
-          <Table />
+        <Route path="/user">
+          <User />
         </Route>
         <Route path="/no">
           <NoPage />
